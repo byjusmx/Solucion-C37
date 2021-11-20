@@ -3,7 +3,7 @@ class Question {
   constructor() {
     this.title = createElement('h1')
     this.input1 = createInput("Ingresa tu nombre aquí....");
-    this.input2 = createInput("Ingresa el número de opcion correcto..");
+    this.input2 = createInput("Ingresa el número de opción correcto..");
     this.button = createButton('Enviar');
     this.question = createElement('h3');
     this.option1 = createElement('h4');
